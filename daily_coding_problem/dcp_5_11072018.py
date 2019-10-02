@@ -38,5 +38,5 @@ def car(cons):
 def cdr(cons):
     return cons(lambda a, b: b)
 
-print(car(cons(3,4)))
-print(cdr(cons(3,4)))
+print(car(cons(3, 4)))
+print(cdr(cons(3, 4)))
