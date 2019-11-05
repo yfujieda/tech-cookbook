@@ -39,3 +39,4 @@ with SQL_CONNECTION.cursor() as cursor:
 
     finally:
         SQL_CONNECTION.close()
+        
